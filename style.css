@@ -1,0 +1,81 @@
+* /* universal selectors */
+{
+	font-family: Verdana;
+}
+
+/* group selectors */
+
+h1, h2, h5 {
+	text-align: center;
+}
+
+div, h5 {
+	background-color: rgba(300, 300, 300, 0.9);
+}
+
+/* class selectors */
+
+.jam {
+	color: darkblue;
+}
+
+.map-link {
+	color: darkblue;
+}
+
+.border {
+	padding: 5px;
+	border-style: dotted;
+	border-color: #BE8025;
+	border-radius: 10px;
+}
+
+body {
+	background-image: url(/Latihan/Images/tlj.webp);
+	background-position: center;
+}
+
+h1 {
+	color: darkgreen;
+	background-color: floralwhite;
+	margin-top: 40px;
+	margin-bottom: 70px;
+	border-style: solid;
+	border-width: 3px;
+}
+
+p {
+	text-align: justify;
+	font-size: 15px;
+	color: black;
+	float: left;
+
+}
+
+div {
+	padding: 20px;
+	height: 410px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 110px;
+	margin-right: 110px;
+	border-style: solid;
+}
+
+h2 { background-color: darkgreen;
+	color: white;
+
+}
+
+img { width: 180px;
+	height: 180px;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	:hover {
+		color: darkred;
+	}
+}
